@@ -16,9 +16,9 @@ def calculate_compound_interest(p_amount, rate, time):
     return compound_interest
 
 
-principal_amount = 1200
-rate_amount = 5.4
-time_span = 2
+principal_amount = int(input("Enter a principal Amount: "))
+rate_amount = float(input("Enter Rate Amount: "))
+time_span = int(input("Enter a Time Span: "))
 
 result = calculate_compound_interest(principal_amount, rate_amount, time_span)
 
